@@ -1,0 +1,4 @@
+garbage
+normal
+pothole
+road_crack

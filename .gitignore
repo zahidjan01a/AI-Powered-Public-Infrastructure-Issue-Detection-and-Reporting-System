@@ -1,0 +1,85 @@
+# =========================================================
+# Python & Bytecode
+# =========================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =========================================================
+# Virtual Environments
+# =========================================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================================================
+# Secrets, Credentials & Environment Configurations
+# =========================================================
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+*.token
+
+# =========================================================
+# Jupyter Notebook Checkpoints
+# =========================================================
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# =========================================================
+# Local Datasets & Large Archives (Not tracked in Git)
+# =========================================================
+dataset/raw/
+dataset/processed/
+data/raw/
+data/processed/
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# =========================================================
+# OS & Editor Artifacts
+# =========================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+~$*.pptx
+~$*.docx
+~$*.xlsx
+
+# =========================================================
+# Testing, Logs & Profiling
+# =========================================================
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+logs/

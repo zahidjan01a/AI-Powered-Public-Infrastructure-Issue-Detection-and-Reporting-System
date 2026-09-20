@@ -1,0 +1,16 @@
+# Core Web Application Framework
+streamlit>=1.30.0
+
+# Deep Learning & Numerical Computing
+tensorflow>=2.15.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# Data Manipulation, Modeling & Visualization (Notebooks & Pipelines)
+pandas>=2.0.0
+scikit-learn>=1.3.0
+matplotlib>=3.8.0
+
+# LLM Recommendation & Environment Configuration (Optional online enhancement)
+google-generativeai>=0.4.0
+python-dotenv>=1.0.0
